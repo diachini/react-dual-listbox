@@ -644,6 +644,7 @@ class DualListBox extends React.Component {
                     data-real-value={JSON.stringify(option.value)}
                     id={`${id}-option-${option.value}`}
                     value={value}
+                    disabled={true}
                 >
                     {option.label}
                 </option>
